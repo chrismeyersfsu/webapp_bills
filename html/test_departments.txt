@@ -1,0 +1,999 @@
+[
+    {
+        "deptId": "10",
+        "deptName": "BUSINESS"
+    },
+    {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+    {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+   {
+        "deptId": "11",
+        "deptName": "COMPUTER SCIENCE"
+    }
+
+]

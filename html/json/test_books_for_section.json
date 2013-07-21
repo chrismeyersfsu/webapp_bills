@@ -1,0 +1,29 @@
+[
+    {
+        "bookId": "654",
+        "image": "http://google.com",
+        "name": "Playboys in time",
+        "author": "Pooty Tang",
+        "isbn": "5568394023",
+        "priceNew": "67.45",
+        "priceUsed": "87.21"
+    },
+    {
+        "bookId": "58",
+        "image": "http://yahoo.com",
+        "name": "Scooter mcscooter",
+        "author": "Great Scoot",
+        "isbn": "6578494023",
+        "priceNew": "69.45",
+        "priceUsed": "37.21"
+    },
+    {
+        "bookId": "7",
+        "image": "http://bing.com",
+        "name": "All the King's Horses",
+        "author": "Scooba Steve",
+        "isbn": "0381394023",
+        "priceNew": "14.45",
+        "priceUsed": "21.21"
+    }
+]

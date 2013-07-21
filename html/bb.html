@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+    <head>
+           <meta charset="utf-8" />
+           <meta name="viewport" content="width=device-width, initial-scale=1">
+           <link rel="stylesheet" href="jquery.mobile-1.0b2.min.css" />
+           <link rel="stylesheet" href="my.css" />
+           <link rel="stylesheet" href="jquery.alerts.css" />
+		   <script src="jquery-1.6.2.min.js"></script>
+		   <!--<script src="jquery.mobile-1.0b2.min.js"></script>-->
+		   <script src="jquery.mobile-1.0b2.js"></script>
+           <script src="jquery.alerts.js"></script>
+           <script src="utils.js"></script>
+           <script src="help.overlay.js"></script>
+		   <script src="bills_client.js"></script>
+		   <script src="bills_main.js"></script>
+		   <script src="bills_ui.js"></script>
+    </head>
+
+    <body>
+        <div data-role="page" id="startPage">
+
+            <div data-role="header">
+                <div data-role="navbar">
+                    <ul id="startHeaderList">
+                        <li><a href="#startPage" class="ui-btn-active ui-state-persist"><img src="images/bb.gif" id="ho-bbImage"></a></li>
+                        <li><a href="#campusTermPage"><img src="images/book_32x32.png" id="ho-bookImage"></a></li>
+                        <li><a href="#courseBookPage"><img src="images/books_32x32.png" id="ho-booksImage"></a></li>
+                        <li><a href="#cartPage"><img src="images/cart_32x32.png" id="ho-cartImage"></a></li>
+                    </ul>
+                </div>
+            </div><!-- /header -->
+
+            <div data-role="content">
+                <h1><p>Automatically retrieve books for courses enrolled.</h1>
+                <div data-role="fieldcontain">
+                    <label for="bb-username"><b>Username</b></label>
+                    <input id="bb-username" type="text" tabindex="100"></input>
+                </div>
+                <div data-role="fieldcontain">
+                    <label for="bb-password"><b>Password</b></label>
+                    <input id="bb-password" type="password" tabindex="101"></input>
+                </div>
+                <div data-role="fieldcontain">
+                    <button id="bb-sync" data-role="button" tabindex="102">Sync with Blackboard</button>
+                </div>
+                <div data-role="fieldcontain">
+                    <button id="bb-grab" data-role="button" tabindex="102">Grab Classes</button>
+                </div>
+                <div data-role="fieldcontain">
+                    <a href="#campusTermPage" data-role="button" tabindex="103">Manually add courses</a>
+                </div>
+            </div><!-- /content -->
+
+            <div data-role="footer">
+            </div><!-- /footer -->
+        </div><!-- /page -->
+
+        <div data-role="page" id="campusTermPage">
+
+            <div data-role="header">
+               <h1>Campus / Semester</h1>
+            </div><!-- /header -->
+
+            <div data-role="content">
+               <p>
+               <ul data-role="listview" id="campusTermList" data-inset="true">
+               </ul>
+               </p>
+
+           </div><!-- /content -->
+
+            <div data-role="footer">
+            </div><!-- /footer -->
+        </div><!-- /page -->
+
+        <div data-role="page" id="departmentPage">
+
+            <div data-role="header">
+                <h1>Department</h1>
+            </div><!-- /header -->
+
+            <div data-role="content">
+               <p>
+
+               <ul data-role="listview" id="departmentList" data-filter="true" data-theme="c" >
+               </ul>
+
+               </p>
+
+           </div><!-- /content -->
+
+            <div data-role="footer">
+            </div><!-- /footer -->
+        </div><!-- /page -->
+
+        <div data-role="page" id="coursePage">
+
+            <div data-role="header">
+               <h1>Course</h1>
+            </div><!-- /header -->
+
+            <div data-role="content">
+               <p>
+
+               <ul data-role="listview" id="courseList" data-inset="true">
+               </ul>
+
+               </p>
+
+           </div><!-- /content -->
+
+            <div data-role="footer">
+            </div><!-- /footer -->
+        </div><!-- /page -->
+
+        <div data-role="page" id="sectionPage">
+
+            <div data-role="header">
+               <h1>Section</h1>
+            </div><!-- /header -->
+
+            <div data-role="content" id="sectionContent">
+               <p>
+
+               <ul data-role="listview" id="sectionList" data-inset="true">
+               </ul>
+
+               </p>
+
+           </div><!-- /content -->
+
+            <div data-role="footer">
+            </div><!-- /footer -->
+        </div><!-- /page -->
+
+         <div data-role="page" id="courseBookPage">
+
+            <div data-role="header">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#startPage"><img src="images/bb.gif" id="ho-bbImage"></a></li>
+                        <li><a href="#campusTermPage"><img src="images/book_32x32.png" id="ho-bookImage"></a></li>
+                        <li><a href="#courseBookPage" class="ui-btn-active ui-state-persist"><img src="images/books_32x32.png" id="ho-booksImage"></a></li>
+                        <li><a href="#cartPage"><img src="images/cart_32x32.png" id="ho-cartImage"></a></li>
+                    </ul>
+                </div>
+
+            </div><!-- /header -->
+
+            <div data-role="content" id="courseBookContent">
+               <p>
+
+               <ul data-role="listview" id="courseBookList" data-inset="true">
+               </ul>
+
+               </p>
+
+           </div><!-- /content -->
+
+            <div data-role="footer">
+            </div><!-- /footer -->
+        </div><!-- /page -->
+
+         <div data-role="page" id="dialogBookDetailsPage">
+
+            <div data-role="header">
+               <h1>Details</h1>
+            </div><!-- /header -->
+
+            <div data-role="content">
+               <p id="dialogBookDetailsContent">
+
+               <ul data-role="listview" id="dialogBookDetailsList" data-inset="true">
+               </ul>
+
+               </p>
+
+           </div><!-- /content -->
+
+            <div data-role="footer">
+            </div><!-- /footer -->
+        </div><!-- /page -->
+
+         <div data-role="page" id="dialogBookPurchasePage">
+
+            <div data-role="header">
+               <h1>Details</h1>
+            </div><!-- /header -->
+
+            <div data-role="content">
+               <p id="dialogBookPurchaseContent">
+
+               <ul data-role="listview" id="dialogBookPurchaseList" data-inset="true">
+               </ul>
+
+               </p>
+
+           </div><!-- /content -->
+
+            <div data-role="footer">
+            </div><!-- /footer -->
+        </div><!-- /page -->
+
+         <div data-role="page" id="cartPage">
+
+            <div data-role="header">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#startPage"><img src="images/bb.gif" id="ho-bbImage"></a></li>
+                        <li><a href="#campusTermPage"><img src="images/book_32x32.png" id="ho-bookImage"></a></li>
+                        <li><a href="#courseBookPage"><img src="images/books_32x32.png" id="ho-booksImage"></a></li>
+                        <li><a href="#cartPage" class="ui-btn-active ui-state-persist"><img src="images/cart_32x32.png" id="ho-cartImage"></a></li>
+                    </ul>
+                </div>
+            </div><!-- /header -->
+
+            <div data-role="content">
+               <p id="cartContent">
+
+
+                <button data-role="button" id="cartSyncButton" onclick="doSyncCart()">Checkout</button>
+
+               </p>
+
+           </div><!-- /content -->
+
+            <div data-role="footer">
+            </div><!-- /footer -->
+        </div><!-- /page -->
+
+    </body>
+</html>

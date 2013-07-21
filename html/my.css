@@ -1,0 +1,78 @@
+.ho-overlay{ position:absolute; top:0; left:0; width:100%; z-index:100; display:none; text-align:left; background-color:black; 
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+
+        /* This works in IE 8 & 9 too */
+        /* ... but also 5, 6, 7 */
+        filter: alpha(opacity=50);
+
+        /* Older than Firefox 0.9 */
+        -moz-opacity:0.5;
+
+        /* Safari 1.x (pre WebKit!) */
+        -khtml-opacity: 0.5;
+
+        /* Modern!
+        /* Firefox 0.9+, Safari 2?, Chrome any?
+        /* Opera 9+, IE 9+ */
+        opacity: 0.5;
+}
+
+.ho-helper{ position:absolute; top:0; left:0; z-index:101; display:none; text-align:left; width:50px; height:50px } 
+
+
+#ho-bbImage {
+    padding: 15px;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+#ho-bookImage {
+    padding: 15px;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+#ho-booksImage {
+    padding: 15px;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+#ho-cartImage {
+    padding: 15px;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+#ho-helpImage { 
+    padding: 15px;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+.ho-required {
+    background-color: #75FF75;
+}
+
+.ho-optional {
+    background-color: #FFFF4D;
+}
+
+.ho-container{ position:absolute; top:0; left:0; z-index:101; display:none; width:100% }
+
+
+.ui-btn-count {
+    position: absolute;
+    background: #CCCCFF;
+    font-color: 'black';
+    left: 0px;
+    top: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: block;
+    padding: 4px;
+
+}

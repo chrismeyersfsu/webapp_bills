@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+           <meta charset="utf-8" />
+           <meta name="viewport" content="width=device-width, initial-scale=1">
+           <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0b2/jquery.mobile-1.0b2.min.css" />
+           <link type="text/css" rel="stylesheet" href="jquery.qtip.min.css" />
+           <link type="text/css" rel="stylesheet" href="my.css" />
+		   <script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+		   <script src="http://code.jquery.com/mobile/1.0b2/jquery.mobile-1.0b2.min.js"></script>
+           <script type="text/javascript" src="jquery.qtip.min.js"></script>
+           <script type="text/javascript" src="help.overlay.js"></script>
+    <script>
+
+    var helpO = "";
+
+    $(document).ready(function() {
+    });
+    $('#testPage').live('pageshow',function(event){
+        $('#helper').qtip({
+               content: {
+                   attr: 'alt'
+               },
+               show: {
+                   event: 'click',
+                   solo: true
+               },
+               hide: {
+                    event: 'click unfocus'
+               }
+        });
+
+        var overlayName = "overlay";
+        //var helperName = HelperGenerateName();
+        helpO = new HelpOverlay(overlayName, '#testContent');
+        //var helper = new Helper(null, '#testImage');
+        //helpO.addHelper(helper);
+        helpO.add("hello world!", '#testImage');
+
+
+/*
+        $('#testImage').qtip({
+               content: {
+                   attr: 'alt'
+               },
+               show: {
+                   event: 'click',
+                   solo: true
+               },
+               hide: {
+                    event: 'click unfocus'
+               }
+        });
+*/
+
+    });
+
+    </script>
+
+    </head>
+
+    <body>
+        <div data-role="page" id="testPage">
+
+            <div data-role="header">
+               <h1>Test the Tooltip</h1>
+            </div><!-- /header -->
+
+            <div data-role="content" id="testContent">
+               <p>
+               <ul data-role="listview" id="testList" data-inset="true">
+                    <li>help</li>
+                    <li>me</li>
+                    <li> I like tools!</li>
+                    <li><img alt="tooltipery" id="testImage" onClick="return helpO.show();" src="http://www.google.com/images/nav_logo83.png"></li>
+               </ul>
+               </p>
+
+           </div><!-- /content -->
+
+            <div data-role="footer">
+            </div><!-- /footer -->
+        </div><!-- /page -->
+    </body>
+</html>
