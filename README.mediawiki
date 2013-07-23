@@ -14,7 +14,7 @@ Currently not working for several reasons.
 
 == Dependencies and Setup ==
 
-* python
+* python, Flask
 <pre>sudo pip install -r requirements.txt</pre>
 
 == Run ==
