@@ -1,0 +1,18 @@
+== Overview ==
+
+As a student of FSU, easily view your semester schedule and the corresponding books.
+
+* Cross-platform
+* Automatically pull down your class schedule from FSU blackboard
+* List used, new, and rent book prices
+
+== Status ==
+
+Currently not working for several reasons.
+* FSU now uses my.fsu.edu for the course schedule
+* this app requires a web component. Sort of a proxy that issues the login and get schedule requests.
+
+== Screenshots ==
+
+<img src="screenshots/bills_login.png" />
+
