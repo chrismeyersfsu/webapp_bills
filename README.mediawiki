@@ -12,6 +12,11 @@ Currently not working for several reasons.
 * FSU now uses my.fsu.edu for the course schedule
 * this app requires a web component. Sort of a proxy that issues the login and get schedule requests.
 
+== Dependencies and Setup ==
+
+* python
+<pre>sudo pip install -r requirements.txt</pre>
+
 == Screenshots ==
 
 <img src="screenshots/bills_login.png" />
