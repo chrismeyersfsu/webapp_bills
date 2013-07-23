@@ -308,9 +308,11 @@ function generateCourseBookPage() {
 function generateCartPage() {
      $.each(KMgr.klasses, function(index1, klass) {
         $.each(klass.books, function(index2, book) {
+			console.log("generateCartPage() instantiateBook()");
             instantiateBook(book, '#cartList');
         });
 
+		$('#cartList').listview();
         $('#cartList').listview('refresh');
         $.mobile.pageLoading(true);
     });
@@ -373,7 +375,8 @@ $('#courseBookPage').live('pagebeforeshow',function(event){
     generateCourseBookPage();
 });
 
-$('#cartPage').live('pagebeforeshow',function(event){ 
+$('#cartPage').live('pageshow',function(event){ 
+	console.log("cartPage going live");
     NavState.state = Enum.NavState.cart;
 
     $('#cartList').empty();

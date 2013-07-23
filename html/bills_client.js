@@ -57,7 +57,9 @@ function getBlackboardSchedule(username, password, callbackFunc) {
     var urlFull = url;
 //    var urlFull = url + '?username=' + username + '&password=' + password;
     var urlData = 'username=' + username + '&password=' + password;
-//    var urlFull = 'json/test.blackboard.schedule.json';
+	if (Conf['useTestData'] == 1) {
+		urlFull = 'json/test.blackboard.schedule.json';
+	}
     // 10 second timeout
     
     $.ajax({url:urlFull, dataType:'json', data: urlData,timeout: 15000, success: function(data) {
@@ -240,7 +242,7 @@ function syncCart(klasses) {
 ********************************************************/
 
 function getAndFillCampusTerm(instantiateFunc, anchor, callbackFunc) {
-	var url = $Conf['baseUrl'] + "/campusterm"; 
+	var url = Conf['baseUrl'] + "/campusterm"; 
     $.getJSON(url, function(data) {
         $.each(data, function(index, entry) {
             if (instantiateFunc) {
@@ -256,9 +258,11 @@ function getAndFillCampusTerm(instantiateFunc, anchor, callbackFunc) {
 }
 
 function getAndFillDepartments(instantiateFunc, campusId, termId, anchor, callbackFunc) {
-	var url = $Conf['baseUrl'] + "/dept";
+	var url = Conf['baseUrl'] + "/dept";
     var urlFull = url + '?campus=' + campusId + '&term=' + termId;
-//    var urlFull = 'json/dept.json';
+	if (Conf['useTestData'] == 1) {
+		urlFull = 'json/dept.json';
+	}
 //    var urlFull = 'test_departments.txt';
     $.getJSON(urlFull, function(data) {
         $.each(data, function(index, entry) {
@@ -275,9 +279,11 @@ function getAndFillDepartments(instantiateFunc, campusId, termId, anchor, callba
 }
 
 function getAndFillCourses(instantiateFunc, deptId, termId, anchor, callbackFunc) {
-	var url = $Conf['baseUrl'] + "/course";
+	var url = Conf['baseUrl'] + "/course";
     var urlFull = url + '?dept=' + deptId + '&term=' + termId;
-//    var urlFull = 'json/course.json';
+	if (Conf['useTestData'] == 1) {
+		urlFull = 'json/course.json';
+	}
     $.getJSON(urlFull, function(data) {
         $.each(data, function(index, entry) {
             if (instantiateFunc) {
@@ -294,11 +300,12 @@ function getAndFillCourses(instantiateFunc, deptId, termId, anchor, callbackFunc
 
 
 function getAndFillSections(instantiateFunc, courseId, termId, anchor, callbackFunc) {
-	var url = $Conf['baseUrl'] + "/section";
+	var url = Conf['baseUrl'] + "/section";
     var urlFull = url + '?course='+courseId+'&term='+termId;
-//    var urlFull = 'json/section.json';
+	if (Conf['useTestData'] == 1) {
+		urlFull = 'json/section.json';
+	}
     $.getJSON(urlFull, function(data) {
-//    $.getJSON('test_sections.json', function(data) {
         $.each(data, function(index, entry) {
             if (instantiateFunc) {
                 instantiateFunc(entry, anchor);
@@ -313,9 +320,11 @@ function getAndFillSections(instantiateFunc, courseId, termId, anchor, callbackF
 }
 
 function getBooks(sectionId, callbackFunc) {
-	var url = $Conf['baseUrl'] + "/books";
+	var url = Conf['baseUrl'] + "/books";
     var urlFull = url + '?id='+sectionId;
-//    var urlFull = 'json/books.json';
+	if (Conf['useTestData'] == 1) {
+		urlFull = 'json/books.json';
+	}
     $.getJSON(urlFull, function (data) {
         if (callbackFunc) {
             callbackFunc(data);
