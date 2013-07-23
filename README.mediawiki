@@ -19,7 +19,7 @@ Currently not working for several reasons.
 
 == Run ==
 
-<pre>python -m SimpleHTTPServer 8080</pre>
+<pre>python ./form.py</pre>
 http://127.0.0.1:8080/html/index.html
 
 == Screenshots ==
