@@ -25,4 +25,9 @@ http://127.0.0.1:8080/html/index.html
 == Screenshots ==
 
 <img src="screenshots/bills_login.png" />
+<center>Login to campus.fsu.edu to pull down schedule</center>
+<img src="screenshots/bills_class_books.png" />
+<center>Required and optional books for classes the student is taking</center>
+<img src="screenshots/bills_checkout.png" />
+<center>Cart checkout</center>
 
