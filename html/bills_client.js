@@ -240,7 +240,8 @@ function syncCart(klasses) {
 ********************************************************/
 
 function getAndFillCampusTerm(instantiateFunc, anchor, callbackFunc) {
-    $.getJSON('../campusterm', function(data) {
+	var url = $Conf['baseUrl'] + "/campusterm"; 
+    $.getJSON(url, function(data) {
         $.each(data, function(index, entry) {
             if (instantiateFunc) {
                 instantiateFunc(entry, anchor);
@@ -255,7 +256,7 @@ function getAndFillCampusTerm(instantiateFunc, anchor, callbackFunc) {
 }
 
 function getAndFillDepartments(instantiateFunc, campusId, termId, anchor, callbackFunc) {
-    var url = '../dept';
+	var url = $Conf['baseUrl'] + "/dept";
     var urlFull = url + '?campus=' + campusId + '&term=' + termId;
 //    var urlFull = 'json/dept.json';
 //    var urlFull = 'test_departments.txt';
@@ -274,7 +275,7 @@ function getAndFillDepartments(instantiateFunc, campusId, termId, anchor, callba
 }
 
 function getAndFillCourses(instantiateFunc, deptId, termId, anchor, callbackFunc) {
-    var url = '../course';
+	var url = $Conf['baseUrl'] + "/course";
     var urlFull = url + '?dept=' + deptId + '&term=' + termId;
 //    var urlFull = 'json/course.json';
     $.getJSON(urlFull, function(data) {
@@ -293,7 +294,7 @@ function getAndFillCourses(instantiateFunc, deptId, termId, anchor, callbackFunc
 
 
 function getAndFillSections(instantiateFunc, courseId, termId, anchor, callbackFunc) {
-    var url = '../section';
+	var url = $Conf['baseUrl'] + "/section";
     var urlFull = url + '?course='+courseId+'&term='+termId;
 //    var urlFull = 'json/section.json';
     $.getJSON(urlFull, function(data) {
@@ -312,7 +313,7 @@ function getAndFillSections(instantiateFunc, courseId, termId, anchor, callbackF
 }
 
 function getBooks(sectionId, callbackFunc) {
-    var url = '../books';
+	var url = $Conf['baseUrl'] + "/books";
     var urlFull = url + '?id='+sectionId;
 //    var urlFull = 'json/books.json';
     $.getJSON(urlFull, function (data) {
