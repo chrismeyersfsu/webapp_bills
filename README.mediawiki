@@ -2,15 +2,20 @@
 
 As a student of FSU, easily view your semester schedule and the corresponding books.
 
+<strike>
 * Cross-platform
 * Automatically pull down your class schedule from FSU blackboard
 * List used, new, and rent book prices
+</strike>
 
 == Status ==
 
+Blackboard login, yes or no (1 or 0).
+<strike>
 Currently not working for several reasons.
 * FSU now uses my.fsu.edu for the course schedule
 * this app requires a web component. Sort of a proxy that issues the login and get schedule requests.
+</strike>
 
 == Dependencies and Setup ==
 
@@ -19,15 +24,16 @@ Currently not working for several reasons.
 
 == Run ==
 
-<pre>python ./form.py</pre>
-http://127.0.0.1:8080/html/index.html
+<pre>python ./bb.py</pre>
+http://127.0.0.1:5000/bb?username=<bb_username>&password=<bb_password>
 
 == Screenshots ==
 
+<!--
 <img src="screenshots/bills_login.png" />
 <center>Login to campus.fsu.edu to pull down schedule</center>
 <img src="screenshots/bills_class_books.png" />
 <center>Required and optional books for classes the student is taking</center>
 <img src="screenshots/bills_checkout.png" />
 <center>Cart checkout</center>
-
+-->
