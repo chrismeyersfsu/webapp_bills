@@ -14,7 +14,7 @@ Blackboard login, yes or no (1 or 0).
 == Run ==
 
 <pre>python ./bb.py</pre>
-http://127.0.0.1:5000/bb?username=<bb_username>&password=<bb_password>
+http://127.0.0.1:5000/bb?username=bb_username&password=bb_password
 
 == Screenshots ==
 
