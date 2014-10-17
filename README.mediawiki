@@ -1,10 +1,11 @@
 == Overview ==
 
-Validate blackboard fsu login.
+* Validate blackboard fsu login.
+* One-page app to order books.
 
 == Status ==
 
-Blackboard login, yes or no (1 or 0).
+Does not work on new FSU log system.
 
 == Dependencies and Setup ==
 
