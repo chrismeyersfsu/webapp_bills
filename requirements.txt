@@ -55,7 +55,7 @@ ssh-import-id==3.21
 system-service==0.1.6
 tornado==3.1.1
 unity-lens-photos==1.0
-urllib3==1.7.1
+urllib3==1.26.5
 vboxapi==1.0
 volatility==2.4
 wsgiref==0.1.2
